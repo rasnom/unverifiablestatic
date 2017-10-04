@@ -1,0 +1,112 @@
+body {
+  background-color: White;
+}
+
+* {
+  border-style: solid;
+  border-width: 0;
+  border-color: green;
+}
+
+.page {
+  width: 8.5in;
+  height: 11in;
+  background-color: White;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', san-serif;
+}
+
+section {
+  margin-left: 0.1in;
+  margin-right: 0.1in;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+section#header {
+  background-color: #E0E0E0;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+h2, #name, #tagline {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#name {
+  font-size: 1.5rem;
+}
+
+#tagline {
+  float: right;
+  font-size: 1.5rem;
+}
+
+section h2 {
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  padding-left: 0.2in;
+  background-color: #E0E0E0;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0;
+  list-style: square;
+}
+
+section > div {
+  margin-right: 0.2in;
+  margin-left: 0.2in;
+  margin-top: 5px;
+}
+
+.location, .dates, .github, #linked-in{
+  float: right;
+  padding-left: 1px;
+}
+
+.company, .project-name, .title, .role, #email{
+  font-weight: bold;
+  padding-right: 0;
+}
+
+.title, .role, .description, .github, .location, .degree, .blurb, #phone {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid Black;
+}
+
+.school {
+  float: left;
+}
+
+.location, .live, .github {
+  float: right;
+  text-align: right;
+}
+
+#skill-salad {
+  height: 1in;
+}
+
+a {
+  color: Black;
+}
+
+.description {
+  font-style: italic;
+}
+
+.hidden {
+  display: none
+}
+
+.under-review {
+  font-style: italic;
+}

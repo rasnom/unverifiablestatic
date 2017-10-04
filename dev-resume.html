@@ -5,6 +5,9 @@
   <title> Ransom Byers: Software Engineer </title>
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/wordcloud2.js"></script>
+  <link rel="stylesheet" href="assets/css/resume.css" />
 
 </head>
 
@@ -185,7 +188,7 @@
 
   </section>
 
-  <section class="hidden" id="skills">
+  <section id="skills">
     <h2> Skills </h2>
     <div id="skill-salad"> </div>
     <script type="text/javascript">
@@ -217,7 +220,7 @@
           ["Automation Tools", 4],
           ["Django", 3],
           ["OaaS", 3],
-          ["Sass", 4],
+          ["SASS", 4],
           ["Selenium", 4],
           ["Jasmine", 5],
           ["Haml", 4],
@@ -233,6 +236,7 @@
           drawWoutOfBound: "true",
           gridSize: "1"
         });
+      console.log(WordCloud.isSupported)
       });
     </script>
 
