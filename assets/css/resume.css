@@ -11,10 +11,16 @@ body {
 .page {
   width: 8.5in;
   height: 11in;
-  background-color: White;
+  background-color: Yellow;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', san-serif;
+  font-size: 10pt;
+}
+
+div#content {
+  column-count: 1;
+  column-gap: 0px;
 }
 
 section {
@@ -110,3 +116,4 @@ a {
 .under-review {
   font-style: italic;
 }
+
