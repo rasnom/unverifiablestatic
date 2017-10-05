@@ -54,38 +54,44 @@
       <div id="skill-salad"> </div>
       <script type="text/javascript">
         var word_list = [
-            ["Ruby", 9],
-            ["C/C++", 5],
-            ["Active-Record", 6],
-            ["Python", 7],
-            ["SQL", 8],
-            ["Ruby on Rails", 6],
-            ["Matlab", 6],
-            ["Unix/Linux", 8],
-            ["AJAX", 6],
-            ["CSS", 6],
-            ["Capybara", 5],
-            ["RSpec", 6],
-            ["Agile Methodologies", 6],
-            ["Prioritization", 5],
-            ["User Oriented Design", 7],
-            ["Test Driven Design", 5],
-            ["Quality Assurance", 4],
-            ["Process Management", 4],
-            ["Unity", 3],
-            ["Git", 5],
-            ["Java", 2],
-            ["HTML5", 5],
-            ["Pair Programming", 6],
-            ["Machine Learning", 4],
-            ["Automation Tools", 4],
-            ["Django", 3],
-            ["OaaS", 3],
-            ["SASS", 4],
-            ["Selenium", 4],
-            ["Jasmine", 5],
-            ["Haml", 4],
-            ["BASH", 4],
+          ["Ruby", 9],
+          ["C/C++", 5],
+          ["Active-Record", 6],
+          ["Python", 7],
+          ["SQL", 8],
+          ["Ruby on Rails", 6],
+          ["Matlab", 6],
+          ["Linux", 8],
+          ["AJAX", 6],
+          ["CSS", 6],
+          ["Capybara", 5],
+          ["RSpec", 6],
+          ["Agile Methodologies", 6],
+          ["Prioritization", 5],
+          ["User Oriented Design", 7],
+          ["Test Driven Design", 5],
+          ["Quality Assurance", 4],
+          ["Process Management", 4],
+          ["Unity", 3],
+          ["Git", 5],
+          ["Java", 2],
+          ["HTML5", 5],
+          ["Pair Programming", 6],
+          ["Machine Learning", 4],
+          ["Automation Tools", 4],
+          ["Django", 3],
+          ["SASS", 4],
+          ["Selenium", 4],
+          ["Jasmine", 5],
+          ["Haml", 4],
+          ["BASH", 4],
+          ["QuickBooks API", 3],
+          ["Google Cloud", 4],
+          ["Alexa Skills Kit", 4],
+          ["Anaconda", 3],
+          ["Apache", 3],
+          ["CAD", 6],
+          ["OpenAPI Specification", 4]
         ];
         $(function() {
           WordCloud(document.getElementById('skill-salad'), {
@@ -109,7 +115,7 @@
       <div class="job">
         <div class="marquee">
           <span class="company"> BriteHub </span>
-          <span class="title"> Contract Product Manager </span>
+          <span class="title"> Product Manager </span>
           <span class="location"> Oakland, CA </span>
           <span class="dates"> 12/2015 - 09/2016 </span>
         </div>
@@ -224,13 +230,46 @@
 
       <div>
         <div class="marquee">
+          <span class="project-name"> SorryYouFeelThatWay.biz</span>
+          <span class="role"> Full Stack Developer </span>
+          <span class="description"> Ecommerce website for ordering customized passive-aggressive greeting cards.</span>
+          <span class="github">
+            <a href="https://github.com/rasnom/sorryyoufeelthatway"> Github </a>
+          </span>
+          <span class="live">
+            <a href="http://sorryyoufeelthatway.biz"> Live </a>
+          </span>
+        </div>
+        <ul>
+          <li> Tech Stack: Ruby, Rails 5, Javascript, HTML, CSS, Postgres, Stripe Checkout, Heroku </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="marquee">
+          <span class="project-name"> Three Short Words </span>
+          <span class="role"> Full Stack Developer </span>
+          <span class="description"> Fuzzy semantics thesaurus </span>
+          <span class="github">
+            <a href="https://github.com/rasnom/threeshortwords"> Github </a>
+          </span>
+          <span class="live">
+            <a href="http://threeshortwords.com"> Github </a>
+          </span>
+        </div>
+        <ul>
+          <li> Tech Stack: ASK, Echo Dot, Ruby, Rails 5, Eventful API, HTML, CSS, Travis-ci, CodeCov, Heroku </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="marquee">
           <span class="project-name"> Tonite</span>
           <span class="role"> Full Stack Developer </span>
           <span class="description"> Alexa skill for spontaneous outings</span>
           <span class="github">
             <a href="https://github.com/rasnom/tonite"> Github </a>
          </span>
-          <span class="live under-review"> Under Review</span>
         </div>
         <ul>
           <li> Tech Stack: ASK, Echo Dot, Ruby, Rails 5, Eventful API, HTML, CSS, Travis-ci, CodeCov, Heroku </li>
@@ -241,7 +280,7 @@
       <div class="hidden">
         <div class="marquee">
           <span class="project-name"> Human Food Machine</span>
-          <span class="role"> Solo Project</span>
+          <span class="role"> Full Stack Developer </span>
           <span class="description"> Digital prototypes of vending machine</span>
           <span class="github">
             <a href="https://github.com/rasnom/humanfoodmachine"> Github </a>
@@ -251,7 +290,7 @@
          </span>
         </div>
         <ul>
-          <li> Tech Stack: Ruby, Rails 5, JS, Jquery, CSS, HMTL, PubNub, USDA NDB API, Heroku </li>
+          <li> Tech Stack: Ruby, Rails 5, Javascript, Jquery, CSS, HMTL, PubNub, USDA NDB API, Heroku </li>
           <li> Created novel interfaces to explore the art-commerce boundary. </li>
         </ul>
       </div>
@@ -259,7 +298,7 @@
       <div>
         <div class="marquee">
           <span class="project-name"> Unverifiable.info</span>
-          <span class="role"> Solo Project</span>
+          <span class="role"> Solo Project </span>
           <span class="description"> Personal site </span>
           <span class="github">
             <a href="https://github.com/rasnom/unverifiable"> Github </a>
@@ -283,7 +322,7 @@
           </span>
         </div>
         <ul>
-          <li> Tech Stack: Ruby, Rails 4, PostgreSQL, RSpec, Capybara, JS, CSS, HTML, SendGrid, Airbrake, Intercom, Autodesk Viewer API, AWS </li>
+          <li> Tech Stack: Ruby, Rails 4, PostgreSQL, RSpec, Capybara, Javascript, CSS, HTML, SendGrid, Airbrake, Intercom, Autodesk Viewer API, AWS </li>
           <li> Shipped MVP for four major features while under severe resource constraints. </li>
         </ul>
       </div>
