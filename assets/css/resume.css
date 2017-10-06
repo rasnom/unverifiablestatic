@@ -84,27 +84,6 @@ ul {
   list-style: square;
 }
 
-/*
-.location, .dates, .github, #linked-in{
-  float: right;
-  padding-left: 1px;
-}
-
-.title, .role, .description, .github, .location, .degree, .blurb, #phone {
-  padding-left: 8px;
-  margin-left: 8px;
-  border-left: 1px solid Black;
-}
-
-.school {
-  float: left;
-}
-
-.location, .live, .github {
-  float: right;
-  text-align: right;
-}
-*/
 #skill-salad {
   height: 2.4in;
   margin-top:-10px;
