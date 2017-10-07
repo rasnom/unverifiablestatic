@@ -1,0 +1,100 @@
+body {
+  background-color: White;
+}
+
+.page {
+  width: 8.5in;
+  height: 11in;
+  background-color: White;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', san-serif;
+  font-size: 10pt;
+}
+
+.col {
+  width: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+section {
+  margin-left: 0.1in;
+  margin-right: 0.1in;
+  margin-bottom: 10px;
+}
+
+section#header {
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+section#header, section h2 {
+  background-color: #E0E0E0;
+}
+
+section#header, section h2, .marquee {
+  margin-top: 6px;
+  padding-left: 0.1in;
+  padding-right: 0.1in;
+}
+
+h2, #name, #tagline {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  font-size: 1.2rem;
+}
+
+#name, #tagline {
+  font-size: 1.5rem;
+}
+
+#tagline {
+  float: right;
+}
+
+.company, .project-name, .title, .role, #email{
+  font-weight: bold;
+}
+
+#linked-in, #github-home, .title, .dates, .github, .live {
+  float: right;
+}
+
+.github {
+  margin-left: 7px;
+}
+
+ul {
+  margin: 0;
+  list-style: square;
+}
+
+#skill-salad {
+  height: 2.4in;
+  margin-top:-10px;
+  margin-bottom: -10px;
+}
+
+a {
+  color: Black;
+}
+
+.hidden {
+  display: none
+}
+
