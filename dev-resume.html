@@ -270,14 +270,16 @@
           ["Alexa Skills Kit", 3],
           ["Docker", 5],
           ["Git", 6],
+          ["React", 5],
           ["Java", 3],
           ["Django", 3],
-          ["SASS", 4],
+          ["LESS / Sass", 4],
           ["jQuery", 6],
           ["Selenium", 4],
           ["Jasmine", 5],
           ["BASH", 4],
           ["UI Design", 4],
+          ["Continuous Integration", 4],
           ["QuickBooks API", 3],
           ["Google Cloud", 4],
           ["Anaconda", 3],
@@ -300,8 +302,10 @@
             backgroundColor: "transparent",
             classes: function(word, weight, fontSize, distance, theta) {
               var frontEndSkills = ["HTML5", "Alexa Skills Kit", "AJAX",
-                "Agile Methodologies", "User Oriented Design", "HTML5", "SASS",
-                "UI Design", "jQuery", "Node.js", "Natural Language Processing"
+                "Agile Methodologies", "User Oriented Design", "HTML5",
+                "Less / Sass", "CAD",
+                "UI Design", "jQuery", "Node.js", "Natural Language Processing",
+                "React",
               ];
               if (frontEndSkills.includes(word)) {
                 return "front-end"
@@ -327,7 +331,8 @@
         </div>
         <ul>
           <li> Ecommerce website for ordering customized passive-aggressive greeting cards.</li>
-          <li> Tech Stack: Ruby, Rails 5, Javascript, HTML, CSS, Postgres, Stripe Checkout, Heroku </li>
+          <li> Tech Stack: Ruby, Rails 5, <mark class="front-end"> Javascript,
+            HTML, CSS, </mark>  Postgres, Stripe Checkout, Heroku </li>
         </ul>
       </div>
 
@@ -343,7 +348,8 @@
         </div>
         <ul>
           <li class="description"> Fuzzy semantics thesaurus </li>
-          <li> Tech Stack: Ruby, Rails 5, HTML, CSS, SASS, Heroku </li>
+          <li> Tech Stack: Ruby, Rails 5, <mark class="front-end"> HTML, CSS,
+            SASS, </mark> Heroku </li>
         </ul>
       </div>
 
@@ -356,7 +362,9 @@
         </div>
         <ul>
           <li class="description"> Alexa skill for spontaneous outings</li>
-          <li> Tech Stack: ASK, Echo Dot, Ruby, Rails 5, Eventful API, HTML, CSS, Travis-ci, CodeCov, Heroku </li>
+          <li> Tech Stack: <mark class="front-end"> ASK, Echo Dot, </mark>
+            Ruby, Rails 5, Eventful API, <mark class="front-end"> HTML, CSS,
+            </mark> Travis-ci, CodeCov, Heroku </li>
           <li> Completed by a team of four in six days with 100% test coverage. </li>
         </ul>
       </div>
@@ -391,7 +399,8 @@
         </div>
         <ul>
           <li class="description"> Personal site </li>
-          <li> Tech Stack: Javascript, HTML, CSS, Bootstrap, Heroku </li>
+          <li> Tech Stack: <mark class="front-end" Javascript, HTML, CSS, </mark>
+            Bootstrap, Heroku </li>
         </ul>
       </div>
 
@@ -405,7 +414,10 @@
           </span>
         </div>
         <ul>
-          <li> Tech Stack: Ruby, Rails 4, PostgreSQL, RSpec, Capybara, Javascript, CSS, HTML, SendGrid, Airbrake, Intercom, Autodesk Viewer API, AWS </li>
+          <li> Tech Stack: Ruby, Rails 4, PostgreSQL, RSpec, Capybara,
+            <mark class="front-end"> Javascript, CSS, HTML, SendGrid, </mark>
+            Airbrake, Intercom, <mark class="front-end"> Autodesk Viewer API,
+            </mark> AWS </li>
           <li> Shipped MVP for four major features while under severe resource constraints. </li>
         </ul>
       </div>
@@ -473,7 +485,8 @@
           <li class="description"> Electrical Engineering Department tool
             tracking and parts inventory system
           </li>
-          <li> Tech Stack: PHP, CSS, HTML, MySQL, UPC Scanners, Linux, Apache
+          <li> Tech Stack: <mark class="front-end"> PHP, CSS, HTML, </mark>
+            MySQL, UPC Scanners, Linux, Apache
           </li>
           <li> Designed, built, and deployed full system by a team of two in
             under four weeks.
