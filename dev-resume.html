@@ -243,62 +243,70 @@
       <script type="text/javascript">
         var word_list = [
           ["Ruby", 9],
+          ["Natural Language Processing", 4],
           ["C/C++", 5],
+          ["User Oriented Design", 5],
           ["Active-Record", 6],
+          ["Agile Methodologies", 6],
           ["Python", 7],
           ["SQL", 8],
+          ["Quality Assurance", 5],
+          ["Prioritization", 5],
+          ["Test Driven Design", 5],
           ["Ruby on Rails", 6],
           ["Matlab", 4],
           ["Linux", 8],
           ["AJAX", 6],
           ["CSS", 6],
+          ["Pair Programming", 6],
+          ["HTML5", 5],
+          ["Machine Learning", 4],
+          ["Automation Tools", 4],
           ["Capybara", 5],
           ["RSpec", 6],
-          ["User Oriented Design", 5],
-          ["Quality Assurance", 5],
-          ["Agile Methodologies", 6],
-          ["Prioritization", 5],
-          ["User Oriented Design", 7],
-          ["Test Driven Design", 5],
           ["Quality Assurance", 4],
           ["Process Management", 4],
           ["Unity", 3],
+          ["Alexa Skills Kit", 3],
           ["Docker", 5],
           ["Git", 6],
           ["Java", 3],
-          ["HTML5", 5],
-          ["Pair Programming", 6],
-          ["Machine Learning", 4],
-          ["Automation Tools", 4],
           ["Django", 3],
           ["SASS", 4],
+          ["jQuery", 6],
           ["Selenium", 4],
           ["Jasmine", 5],
           ["BASH", 4],
           ["UI Design", 4],
           ["QuickBooks API", 3],
           ["Google Cloud", 4],
-          ["Alexa Skills Kit", 4],
           ["Anaconda", 3],
           ["Apache", 3],
           ["CAD", 8],
-          ["OpenAPI", 4]
-          ["jQuery", 6]
-          ["Node.js", 4]
-          ["Natural Language Processing", 5]
+          ["OpenAPI", 4],
+          ["Node.js", 4],
         ];
         $(function() {
           WordCloud(document.getElementById('skill-salad'), {
             list: word_list,
             weightFactor: "4",
-            color: "black",
             shape: "circle",
+            color: "black",
             ellipticity: "0.3",
             minRotation: "0",
             maxRotation: "0",
             drawWoutOfBound: "true",
             gridSize: "3",
-            backgroundColor: "transparent"
+            backgroundColor: "transparent",
+            classes: function(word, weight, fontSize, distance, theta) {
+              var frontEndSkills = ["HTML5", "Alexa Skills Kit", "AJAX",
+                "Agile Methodologies", "User Oriented Design", "HTML5", "SASS",
+                "UI Design", "jQuery", "Node.js", "Natural Language Processing"
+              ];
+              if (frontEndSkills.includes(word)) {
+                return "front-end"
+              }
+            }
           });
         });
       </script>
@@ -462,9 +470,14 @@
           <span class="github"> </span>
         </div>
         <ul>
-          <li class="description"> Electrical Engineering Department tool tracking and parts inventory system </li>
-          <li> Tech Stack: PHP, CSS, HTML, MySQL, UPC Scanners, Linux, Apache </span> </li>
-          <li> Designed, built, and deployed full system by a team of two in under four weeks.
+          <li class="description"> Electrical Engineering Department tool
+            tracking and parts inventory system
+          </li>
+          <li> Tech Stack: PHP, CSS, HTML, MySQL, UPC Scanners, Linux, Apache
+          </li>
+          <li> Designed, built, and deployed full system by a team of two in
+            under four weeks.
+          </li>
         </ul>
       </div>
     </section>

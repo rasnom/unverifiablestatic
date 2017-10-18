@@ -95,6 +95,9 @@ a {
 }
 
 .hidden {
-  display: none
+  display: none;
 }
 
+.front-end {
+  background-color: red
+}
