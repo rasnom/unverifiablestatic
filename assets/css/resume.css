@@ -85,7 +85,7 @@ ul {
 }
 
 #skill-salad {
-  height: 2.4in;
+  height: 2.7in;
   margin-top:-10px;
   margin-bottom: -10px;
 }
@@ -98,6 +98,22 @@ a {
   display: none;
 }
 
+/*modal sections to turn on and off for specific positions*/
+
+/*front end*/
 .front-end {
-  background-color: red
+  text-shadow: 2px 2px 2px #333333;
+}
+
+#tagline {
+	visibility: hidden;
+	position: relative;
+}
+
+#tagline:after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "UX Engineer";
 }
