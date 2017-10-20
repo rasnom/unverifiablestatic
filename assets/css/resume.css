@@ -103,7 +103,8 @@ a {
 /*FRONT END*/
 /*
 .front-end {
-  text-shadow: 2px 2px 2px #333333;
+  background-color: #E0E0E0;
+  mix-blend-mode: darken;
 }
 
 #tagline {
